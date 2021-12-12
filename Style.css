@@ -1,0 +1,146 @@
+body{
+	color: #39A9CB ;
+	font-family: tahoma;
+	background: linear-gradient(128deg, #43afe3, #05a1ed, #0a6998, #0a405b, #041a24);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 18s ease infinite;
+    -moz-animation: AnimationName 18s ease infinite;
+    animation: AnimationName 18s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:44% 0%}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:44% 0%}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:44% 0%}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0%}
+}
+	font-family: arial;
+	font-size: 16px;
+	vertical-align: center ;
+}
+h1{
+	font-weight: 200;
+	color: #39A9CB;
+	font-size: 48px;
+	font-family: 'tahoma', sans-serif;
+}
+a{
+	text-decoration:none ;
+	color: #39A9CB;
+}
+h2{
+	color: #39A9CB; font-family: tahoma;
+	font-size: 32px;
+}
+p{
+	color: #252525;
+}
+a:hover{
+	color: darkblue;
+}
+#profile-picture-round{
+	width: 192px;
+	height: 192px;
+	border-radius: 50%;
+}
+
+.container {
+	width: 1040px;
+	margin: 0 auto;
+}
+
+.card-white	{
+	padding: 30px;
+	margin: 12px auto ;
+	border-radius: 8px;
+	box-shadow: 0 15px 35px rgb(50, 50, 50);
+	background: #E8F0F2;
+	text-align: center;
+	width: 650px;
+}
+h3{
+	color: white;
+	font-size: 16px;
+}
+#liste-reseaux-sociaux{
+	list-style: none;
+	margin-left:0 ;
+	padding-left:0 ;
+}
+
+li{
+	margin-bottom: 15px;
+	display: inline;
+}
+#volleyball{
+	background-image: url(image/Volleyball5.png) ;
+}
+#bulle-titre{
+	color: #39A9CB;
+	font-size:24px ;
+	padding: 8px 20px 8px 20px;
+	background: white;
+	border-radius: 32px;
+}
+#bulle-texte{
+	color: #252525;
+	padding: 6px 16px 6px 16px;
+	background: white;
+	border-radius: 32px;
+}
+#bulle-reseaux{
+	color: #39A9CB;
+	font-size:24px ;
+	padding: 8px 20px 8px 20px;
+	background: white;
+	border-radius: 32px
+}
+#citadingue{
+	background-image: url(image/cita3.jpg);
+	color: white;
+}
+
+/*media queries*/
+
+@media(max-width: 900px) {
+	.container{
+		width: 700px;
+	}
+}
+
+@media(max-width: 600px) {
+	.container{
+		width: 400px;
+	}
+}
+.btn{
+	width: 160px;
+	height: 96PX;
+	padding: 16px;
+	background: white;
+	color: #39A9CB;
+	border-radius: 32px;
+}
+.btn:hover{
+	color: darkblue;
+	transition: 0.5s;
+}
+.btn1{
+	width: 160px;
+	height: 96PX;
+	padding: 16px;
+	background: white;
+	color: #39A9CB;
+	border-radius: 32px;
+	margin: 12px;
+}
